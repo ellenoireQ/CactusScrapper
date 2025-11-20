@@ -1,0 +1,87 @@
+@import "tailwindcss";
+
+.logo.vite:hover {
+  filter: drop-shadow(0 0 2em #747bff);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafb);
+}
+
+.text-onSecondary {
+  color: var(--color-onSecondaryContainer)
+}
+
+.text-surfaceContainerLow {
+  background-color: var(--color-surfaceContainerLowest)
+}
+
+:root {
+  /* Surface background color */
+  --color-surfaceContainerLowest: #100e07;
+  --color-surfaceContainer: #222017;
+  --color-surfaceContainerLow: #1e1b11;
+  --color-surface: #15130b;
+  --color-surfaceDim: #15130b;
+
+  /* Color */
+  /* Primary */
+  --color-primary: #dbc66e;
+  --color-onPrimary: #3a3000;
+
+  /* Primary Container */
+  --color-primaryContainer: #534600;
+  --color-onPrimaryContainer: #f8e287;
+
+  /* Secondary */
+  --color-secondaryContainer: #4e472a;
+  --color-onSecondaryContainer: #c9b875;
+
+  /* On Surface*/
+  --color-onSurface: #cfc6ad;
+
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color: #0f0f0f;
+  background-color: var(--color-surfaceContainerLow);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+main {
+  width: 100%;
+  max-width: 100%;
+}
+
+.container {
+  color: white;
+  padding: 12px;
+  height: 120px;
+  width: 100%;
+  max-width: 980px;
+  display: flex;
+  gap: 40px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1026px) {
+  .container {
+    width: unset;
+  }
+}
+
+.icobutton {
+  border: none;
+  border-radius: 20px;
+}
+
+.icobutton:hover {
+  opacity: 90%;
+}
