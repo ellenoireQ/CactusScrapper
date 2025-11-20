@@ -2,7 +2,7 @@
 
 ![Logo](src-tauri/icons/icon.png)
 
-A Simple and Lightweight web scraping application built with Rust, Tauri, and Reqwest/Scraper.
+A Simple and Lightweight web scraping application built with Rust, Tauri, and Reqwest/Scraper. Using material design color scheme for beauty UI.
 
 ---
 
@@ -11,6 +11,10 @@ A Simple and Lightweight web scraping application built with Rust, Tauri, and Re
 - Fetch HTML content from any URL
 
 ---
+
+## Preview
+![prev](public/ss1.png)
+![prev](public/ss2.png)
 
 ## Build from source
 ```bash
