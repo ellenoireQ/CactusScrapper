@@ -1,6 +1,6 @@
 # Cactus Scraper
 
-![Logo](src-tauri\icons\icon.png)
+![Logo](src-tauri/icons/icon.png)
 
 A Simple and Lightweight web scraping application built with Rust, Tauri, and Reqwest/Scraper.
 
